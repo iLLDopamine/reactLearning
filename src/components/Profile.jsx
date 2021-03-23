@@ -6,7 +6,7 @@ const Profile = () => {
       </div>
 
       <div>
-        avavar + description
+        ava + description
       </div>
 
       <div>
