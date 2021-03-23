@@ -1,6 +1,8 @@
+import classes from './Profile.module.css';
+
 const Profile = () => {
     return (
-      <div className='content'>
+    <div className={classes.content}>
       <div>
         <img src='https://www.gettyimages.pt/gi-resources/images/Homepage/Hero/PT/PT_hero_42_153645159.jpg' />
       </div>
@@ -14,12 +16,17 @@ const Profile = () => {
         <div>
           New post
         </div>
-        <div>
-          post 1
+
+        <div className={classes.posts}>
+          <div className={classes.item}>
+            post 1
+          </div>
+
+          <div className={classes.item}>
+            post 2
+          </div>
         </div>
-        <div>
-          post 2
-        </div>
+
       </div>
     </div>
     );
